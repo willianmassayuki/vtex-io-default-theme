@@ -4,7 +4,14 @@
   "license": "UNLICENSED",
   "scripts": {
     "lint": "eslint --ext js,jsx,ts,tsx .",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\""
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
+    "scss:store": "sass --style=compressed --no-source-map store/:styles/css/",
+  "scss:react": "sass --style=compressed --no-source-map react/components:react/components",
+    "scss": "npm run scss:store && npm run scss:react",
+    "scss:watch:store": "sass --watch --style=compressed --no-source-map store/:styles/css/",
+    "scss:watch:react": "sass --watch --style=compressed --no-source-map react/components:react/components",
+    "scss:watch": "concurrently \"npm run scss:watch:store\" \"npm run scss:watch:react\"",
+    "dev": "concurrently \"npm run scss:watch\" \"vtex link\""
   },
   "lint-staged": {
     "*.{ts,js,tsx,jsx}": [
@@ -16,12 +23,9 @@
     ]
   },
   "devDependencies": {
-    "@vtex/prettier-config": "0.1.4",
-    "eslint": "7.12.1",
-    "eslint-config-vtex": "12.3.2",
-    "eslint-config-vtex-react": "6.3.2",
-    "lint-staged": "10.1.1",
-    "prettier": "2.0.2",
-    "typescript": "3.8.3"
+    "sass": "^1.86.0"
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
   }
 }

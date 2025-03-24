@@ -1,0 +1,11 @@
+{
+  "component-example": {
+    "component": "Example",
+    "composition": "children"
+  },
+
+  "component-toggle": {
+    "component": "ToggleLayout",
+    "composition": "children"
+  }
+}

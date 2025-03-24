@@ -1,0 +1,11 @@
+query  product($productId: ID!) {
+product(identifier: {field:  id, value: $productId}) {
+  items {
+    sellers {
+      commertialOffer {
+        AvailableQuantity
+      }
+    }
+  }
+}
+}
