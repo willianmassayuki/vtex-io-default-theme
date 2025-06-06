@@ -3,7 +3,7 @@ import styles from './styles';
 
 const Example = () => {
     return (
-        <button className={styles.container}>
+        <button className={`${styles['container']}`}>
             <span>
                 Click me
             </span>

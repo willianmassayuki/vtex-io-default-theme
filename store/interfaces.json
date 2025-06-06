@@ -7,5 +7,9 @@
   "component-toggle": {
     "component": "ToggleLayout",
     "composition": "children"
+  },
+
+  "component-available-quantity": {
+    "component": "AvailableQuantity"
   }
 }

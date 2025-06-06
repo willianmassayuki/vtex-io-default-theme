@@ -1,0 +1,12 @@
+.t-AvailableQuantity-wrapper {
+  border: 1px solid #000020;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.t-AvailableQuantity-wrapper p {
+  color: #000020;
+  line-height: 19px;
+  font-size: 1rem;
+  margin: 0;
+}

@@ -1,5 +1,5 @@
 {
-  "vendor": "thealfredpartnerbr",
+  "vendor": "seriealfredpartnerbr",
   "name": "wmstheme",
   "version": "0.0.0",
   "builders": {
@@ -36,7 +36,9 @@
     "vtex.flex-layout": "0.x",
     "vtex.rich-text": "0.x",
     "vtex.store-drawer": "0.x",
+    "vtex.store-icons": "0.x",
     "vtex.locale-switcher": "0.x",
+    "vtex.product-context": "0.x",
     "vtex.product-quantity": "1.x",
     "vtex.product-identifier": "0.x",
     "vtex.product-specification-badges": "0.x",
@@ -50,7 +52,10 @@
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
-    "vtex.add-to-cart-button": "0.x"
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.search-graphql": "0.x",
+    "vtex.store-video": "1.x",
+    "vtex.store-media": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

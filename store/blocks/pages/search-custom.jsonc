@@ -1,0 +1,25 @@
+{
+  "store.custom#lp-colecoes": {
+    "blocks": [
+      "search-result-layout.customQuery#colecoes"
+    ]
+  },
+  "search-result-layout.customQuery#colecoes": {
+    "title": "Configuração de resultados",
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 12,
+        "skusFilter": "ALL",
+        "simulationBehavior": "default",
+        "mapField": "productClusterIds",
+        "queryField": "1166" //ID da coleção
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile"
+    ]
+  }
+}

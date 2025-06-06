@@ -1,0 +1,73 @@
+{
+  "component-toggle#home-main-banner": {
+    "title": "Banner principal",
+    "children": [
+      "flex-layout.row#home-main-banner"
+    ],
+    "props": {
+      "booleanActive": true
+    }
+  },
+  "flex-layout.row#home-main-banner": {
+    "props": {
+      "blockClass": "t-home-main-banner",
+      "colSizing": "equal",
+      "preserveLayoutOnMobile": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false
+    },
+    "children": [
+      "list-context.media-list#main-banner"
+    ]
+  },
+  "list-context.media-list#main-banner": {
+    "title": "Lista de mídias",
+    "children": [
+      "slider-layout#main-banner-images"
+    ],
+    "props": {
+      "mediaList": [
+        {
+          "mediaType": "video",
+          "videoUrl": "https://www.youtube.com/watch?v=K4TOrB7at0Y",
+          "autoPlay": true,
+          "loop": true,
+          "playsInline": true
+          // "poster": "https://placehold.co/946x550"
+        },
+        {
+          "mediaType": "image",
+          "image": "https://placehold.co/946x550",
+          "mobileImage": "https://placehold.co/480x640"
+        }
+      ]
+    }
+  },
+  "slider-layout#main-banner-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      // "centerMode": "to-the-left",
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 5000
+      },
+      "slideTransition": {
+        "speed": 400,
+        "delay": 0,
+        "timing": ""
+      },
+      "navigationStep": 1,
+      "blockClass": [
+        "carousel",
+        "t-home-banner-main"
+      ]
+    }
+  }
+}

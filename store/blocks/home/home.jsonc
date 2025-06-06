@@ -1,28 +1,22 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#home-main-banner"
+      "component-toggle#home-main-banner",
+      "flex-layout.row#component-example"
     ]
   },
-  "flex-layout.row#home-main-banner": {
-    "title": "Main banner",
+  // Componente de exemplo sendo chamado dentro de uma seção da home
+  "flex-layout.row#component-example": {
+    "title": "Componente Customizado",
     "props": {
-      "blockClass": "t-home-main-banner",
+      "blockClass": "t-component-example",
       "colSizing": "equal",
       "preserveLayoutOnMobile": false,
       "preventHorizontalStretch": false,
       "preventVerticalStretch": false
     },
     "children": [
-      "rich-text"
+      "component-example"
     ]
-  },
-  "rich-text": {
-    "props": {
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
   }
 }
