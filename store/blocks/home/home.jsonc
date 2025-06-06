@@ -1,22 +1,14 @@
 {
   "store.home": {
     "blocks": [
-      "component-toggle#home-main-banner",
-      "flex-layout.row#component-example"
+      "rich-text#title-01",
+      "component-toggle#home-main-banner"
     ]
   },
-  // Componente de exemplo sendo chamado dentro de uma seção da home
-  "flex-layout.row#component-example": {
-    "title": "Componente Customizado",
+  "rich-text#title-01": {
     "props": {
-      "blockClass": "t-component-example",
-      "colSizing": "equal",
-      "preserveLayoutOnMobile": false,
-      "preventHorizontalStretch": false,
-      "preventVerticalStretch": false
-    },
-    "children": [
-      "component-example"
-    ]
+      "text": "# Media",
+      "textPosition": "CENTER"
+    }
   }
 }

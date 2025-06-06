@@ -17,13 +17,19 @@
       "preventVerticalStretch": false
     },
     "children": [
+      "flex-layout.col#home-main-banner"
+    ]
+  },
+  "flex-layout.col#home-main-banner": {
+    "children": [
       "list-context.media-list#main-banner"
     ]
   },
   "list-context.media-list#main-banner": {
     "title": "Lista de mídias",
     "children": [
-      "slider-layout#main-banner-images"
+      "slider-layout#main-banner-images",
+      "list-context-renderer#banners-grid"
     ],
     "props": {
       "mediaList": [
@@ -43,6 +49,7 @@
       ]
     }
   },
+  // Slider
   "slider-layout#main-banner-images": {
     "props": {
       "itemsPerPage": {
@@ -68,6 +75,14 @@
         "carousel",
         "t-home-banner-main"
       ]
+    }
+  },
+  // List context renderer
+  "list-context-renderer#banners-grid": {
+    "props": {
+      "blockClass": "t-banners-grid-list",
+      "listElement": "ul",
+      "itemElement": "li"
     }
   }
 }

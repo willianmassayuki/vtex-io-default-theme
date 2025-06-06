@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"seriealfredpartnerbr.wmstheme@https://test--seriealfredpartnerbr.myvtex.com/_v/private/typings/linked/v1/seriealfredpartnerbr.wmstheme@0.0.0+build1749210750/public/@types/seriealfredpartnerbr.wmstheme":
+"seriealfredpartnerbr.wmstheme@https://billzhack--seriealfredpartnerbr.myvtex.com/_v/private/typings/linked/v1/seriealfredpartnerbr.wmstheme@0.0.0+build1749213728/public/@types/seriealfredpartnerbr.wmstheme":
   version "0.0.0"
-  resolved "https://test--seriealfredpartnerbr.myvtex.com/_v/private/typings/linked/v1/seriealfredpartnerbr.wmstheme@0.0.0+build1749210750/public/@types/seriealfredpartnerbr.wmstheme#7a0f9ed31fb71349f373b76cd50742a5ecd24c65"
+  resolved "https://billzhack--seriealfredpartnerbr.myvtex.com/_v/private/typings/linked/v1/seriealfredpartnerbr.wmstheme@0.0.0+build1749213728/public/@types/seriealfredpartnerbr.wmstheme#406dd6068e404ef1dddd60c77bed8e1e8bb32198"
 
 "vtex.add-to-cart-button@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.30.2/public/@types/vtex.add-to-cart-button":
   version "0.30.2"
@@ -94,6 +94,10 @@
   version "0.16.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.rich-text@0.16.0/public/@types/vtex.rich-text#0cdcaccffb37ae0d025894ba7055f69bc3c9aa30"
 
+"vtex.search-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.68.1/public/@types/vtex.search-graphql":
+  version "0.68.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.68.1/public/@types/vtex.search-graphql#80f9f29f0791cdc1370553901f9959ad267b0f4f"
+
 "vtex.search-result@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.136.1/public/@types/vtex.search-result":
   version "3.136.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.136.1/public/@types/vtex.search-result#bf6cd0c5f2340cd70cc5736f4228f6dad34874c4"
@@ -137,6 +141,14 @@
 "vtex.store-icons@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-icons@0.18.0/public/@types/vtex.store-icons":
   version "0.18.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-icons@0.18.0/public/@types/vtex.store-icons#0ee94d549aa283ce3a13ab987c13eac4fdfd1bba"
+
+"vtex.store-media@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-media@0.3.0/public/@types/vtex.store-media":
+  version "0.3.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-media@0.3.0/public/@types/vtex.store-media#7ca27b6b439489d46785ce0414eed8c311402c73"
+
+"vtex.store-video@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-video@1.4.3/public/@types/vtex.store-video":
+  version "1.4.3"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-video@1.4.3/public/@types/vtex.store-video#39c9ebc2b1d0edbf3310226b6d93bc1c09091856"
 
 "vtex.store@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.141.0/public/@types/vtex.store":
   version "2.141.0"
